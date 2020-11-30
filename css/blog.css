@@ -1,0 +1,74 @@
+body {
+  margin:0;
+  padding:20px;
+  background-color: pink;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin: 1.5 0px;
+}
+h3 {
+    color: black;
+    margin:1.5 0px;   
+}
+.left-column {
+    float: left;
+    width: 70%;
+    background-color:pink;
+    margin-left: 20px;
+
+}
+.right-column {
+    float: right;
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 20px;
+    background-color: pink;
+}
+.card {
+    padding: 20px;
+    background-color: rgb(236, 160, 173);
+margin-top: 20px;
+}
+.card img {
+    width: 100%;
+}
+.right-column .card img{
+    margin-bottom: 10px;
+
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:white;
+  color: rgb(0, 0, 0);
+  margin-top: 1px;
+
+}
+/*responsive */
+
+@media(max-width:800px){
+    .left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+}
